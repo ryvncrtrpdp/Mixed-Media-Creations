@@ -1,0 +1,68 @@
+/*@media only screen and (max-width: 800px) {*/
+    /*/* For mobile phones: */*/
+    /*div[id*="header"] {*/
+        /*color: #FFFFFF;*/
+    /*}*/
+    /*/*div[class*=""] {*/*/
+        /*/*color: #FFFFFF;*/*/
+    /*/*}*/*/
+/*}*/
+
+
+/*@media (min-width: 576px) {*/
+    /*#wrapper {*/
+        /*width: fit-content;*/
+    /*}*/
+    /*#content_900 {*/
+        /*max-width: content-box;*/
+    /*}*/
+/*}*/
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {*/
+    /*#wrapper {*/
+        /*width: fit-content;*/
+    /*}*/
+    /*!*#content_900 {*!*/
+        /*!*max-width: content-box;*!*/
+    /*!*}*!*/
+    /*body {*/
+        /*display: flex;*/
+    /*}*/
+/*}*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) {
+    #header_900 .headerTextA{
+        width: 360px;
+    }
+    #header_900 .headerTextA br{
+        display: none;
+    }
+    /*#wrapper {*/
+        /*width: fit-content;*/
+    /*}*/
+    /*#content_900 {*/
+        /*max-width: content-box;*/
+    /*}*/
+    /*body {*/
+        /*display: flex;*/
+    /*}*/
+}
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (max-width: 992px) {*/
+    /*#wrapper {*/
+        /*width: fit-content;*/
+    /*}*/
+    /*#content_900 {*/
+        /*width: fit-content;*/
+        /*overflow: hidden;*/
+    /*}*/
+/*}*/
+
+/*#header*/
+/*#header_900*/
+
+/*.lucia-contact-div-blocks*/
+/*.lucia-amenity-list-section*/

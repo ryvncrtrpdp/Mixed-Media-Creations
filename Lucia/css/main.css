@@ -1,0 +1,147 @@
+
+/*body, html{*/
+    /*height: 100%;*/
+/*}*/
+
+body, p {
+    margin: 0; padding: 0;
+}
+
+#wrapper {
+    min-height: 100%;
+}
+
+* html #wrapper {
+    height: 100%;
+}
+#header {
+    width: 100%;
+}
+
+#header_900 {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url('/images/photos/hero-background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.quickContactSocial {
+    float: right;
+    margin: 20px;
+    color: #f4f1e6;
+    font-family: "Bicyclette", sans-serif;
+    font-size: 16px;
+}
+.quickContactSocial .socialButtons{
+    height: 21px;
+    margin: 1px;
+    /*fill: #6f2020;*/
+    color: #0060B6;
+    text-decoration: none;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+.lucia-big-logo {
+    width: 450px;
+    height: 130px;
+    margin-top: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.floralLogoTextOBJ {
+    display: inline-flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    color: #f4f1e6;
+    font-family: "Bicyclette", sans-serif;
+    font-size: 19px;
+}
+.floralLogoTextOBJ .mainFloralLogo{
+    display: inline-flex;
+    margin: 0 auto;
+    fill: #6f2020;
+    width: 130px;
+    height: 130px;
+}
+.lucia-floral-logo {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.floralLogoTextSpanLeft {
+    float: left;
+    margin-top: 20%;
+}
+.floralLogoTextSpanRight {
+    float: right;
+    margin-top: 20%;
+}
+#header_900 .headerTextA {
+    text-align: center;
+    color: #f4f1e6;
+    font-family: "Bicyclette", sans-serif;
+    font-size: 16px;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#header_900 .headerTextB {
+    text-align: center;
+    color: #f4f1e6;
+    font-family: "Bicyclette", sans-serif;
+    font-size: 12px;
+    padding-bottom: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+.lucia-pattern-top-bar-under-header-outer  {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-image: url('/images/assets/PatternTile.svg');
+}
+.lucia-pattern-top-bar-under-header-inner  {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+#content {
+    display: none;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#content_900 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#footer {
+    width: 100%;
+    height: 100px;
+    margin: -100px auto 0 auto;
+    position: static;
+    background: #f4f1e6;
+}
+
+#footer_900 {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+}

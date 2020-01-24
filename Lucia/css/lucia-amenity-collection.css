@@ -1,0 +1,104 @@
+.lucia-amenity-top-bar-outer  {
+    min-width: 3000px;
+    right: 50%;
+    height: 80px;
+    position: relative;
+    background: #f4f1e6;
+}
+.lucia-amenity-top-bar-inner  {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+.lucia-amenity-top-bar-inner h1 {
+    position: absolute;
+    margin: 35 0 0 0;
+    margin-left: 800px;
+    color: #6f2020;
+    font-family: "acumin-pro-extra-condensed",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: #e05a46;
+    letter-spacing: 10px;
+
+}
+.lucia-amenity-list-section {
+    height: 1000px;
+}
+.lucia-amenity-list-section h4{
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-family: "Bicyclette", sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3.37px;
+}
+.lucia-amenity-community-list {
+    float: left;
+    width: 50%;
+}
+.lucia-amenity-community-list hr{
+    height: 5px;
+    background-color: #e05a46;
+    margin: inherit;
+    width: 500px;
+}
+.lucia-amenity-list-section h5 {
+    width: 450px;
+    margin-left: 60px;
+    font-family: "big-caslon-fb", serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.lucia-amenity-feature-list {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url('/images/assets/LightBeamHero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f2f1e6;
+}
+.lucia-amenity-feature-list h4{
+    text-align: center;
+}
+.lucia-amenity-community-list h4{
+    margin-left: 60px;
+}
+.lucia-amenity-feature-list hr{
+    height: 5px;
+    background-color: #f2f1e6;
+    width: inherit;
+}
+.lucia-amenity-div ul{
+    text-align: left;
+    font-family: "big-caslon-fb", serif;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.45px;
+    line-height: 54.67px;
+    margin-left: 40px;
+}
+.lucia-amenity-div li{
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+.lucia-amenity-community-list ul {
+    list-style: none;
+}
+
+.lucia-amenity-community-list ul li::before {
+    content: "\2022";
+    color: e05a46;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
